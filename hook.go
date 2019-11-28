@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Graylog2/go-gelf/gelf"
-	"github.com/Sirupsen/logrus"
+	"github.com/graylog2/go-gelf/gelf"
+	"github.com/sirupsen/logrus"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Graylog2/go-gelf/gelf"
+	"github.com/graylog2/go-gelf/gelf"
 )
 
 // Config stores graylog hook config

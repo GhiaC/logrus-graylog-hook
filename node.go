@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"sync/atomic"
 
-	"github.com/Graylog2/go-gelf/gelf"
+	"github.com/graylog2/go-gelf/gelf"
 )
 
 var randIntn = rand.Intn

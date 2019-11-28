@@ -1,4 +1,4 @@
-# Graylog Hook for [Logrus](https://github.com/Sirupsen/logrus) <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />
+# Graylog Hook for [Logrus](https://github.com/sirupsen/logrus) <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />
 Use this hook to send logs to multiple Graylog servers over UDP.
 
 ====
@@ -18,8 +18,8 @@ Client side load balancing provided by this logrus hook could be a solution to t
 ## Install
 This package depends on 
 
-* [gelf](https://github.com/Graylog2/go-gelf/gelf)
-* [logrus](https://github.com/Sirupsen/logrus)
+* [gelf](https://github.com/graylog2/go-gelf/gelf)
+* [logrus](https://github.com/sirupsen/logrus)
 
 `$ go get -u github.com/on99/logrus-graylog-hook`
 
@@ -31,8 +31,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	graylog "github.com/on99/logrus-graylog-hook"
+	"github.com/sirupsen/logrus"
+	graylog "github.com/ghiac/logrus-graylog-hook"
 )
 
 func main() {
